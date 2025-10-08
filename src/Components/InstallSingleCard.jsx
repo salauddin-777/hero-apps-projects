@@ -2,8 +2,11 @@ import React from "react";
 import icon from "../assets/icon-downloads.png";
 import ratings from "../assets/icon-ratings.png";
 
-const InstallSingleCard = ({ app }) => {
-  const { image, title, downloads, ratingAvg, size } = app;
+
+
+const InstallSingleCard = ({ app, handleUninstall }) => {
+  const { image, title, downloads, ratingAvg, size, id } = app;
+  
   return (
     <div className="card card-side bg-base-100 shadow-xl flex justify-center items-center container  mx-auto my-4 p-3">
     <img className="w-25 h-25 bg-gray-200 p-2 rounded-2xl" src={image} alt="Movie" /> 
@@ -22,7 +25,8 @@ const InstallSingleCard = ({ app }) => {
           <span>{size} MB</span>
         </div>
         <div className="card-actions justify-end ">
-          <button className="btn rounded-lg text-white text-2xl bg-[#00d390] py-7 px-8">Uninstall</button>
+          <button onClick={()=>handleUninstall(id)} className="btn rounded-lg text-white text-2xl bg-[#00d390] py-7 px-8">Uninstall</button>
+          
         </div>
         </div>
       </div>
