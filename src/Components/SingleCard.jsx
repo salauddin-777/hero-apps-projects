@@ -7,7 +7,7 @@ const SingleCard = ({ app }) => {
   const { image, downloads, title, ratingAvg } = app;
   return (
     <Link to={`/details/${app.id}`}>
-      <div className="card bg-base-100 w-96 shadow-md">
+      <div className="card bg-base-100 shadow-md">
         <figure className="bg-[#d9d9d9] p-3">
           <img className="w-[200px] h-[200px]" src={image} alt={title} />
         </figure>

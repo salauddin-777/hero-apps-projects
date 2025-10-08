@@ -5,16 +5,36 @@ import icon from "../assets/icon-downloads.png";
 import ratings from "../assets/icon-ratings.png";
 import reviewIcon from '../assets/icon-review.png'
 import logo from "../assets/logo.png";
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const DetailsCard = () => {
-  const { apps, loading, error } = useApps();
+  const { apps, loading } = useApps();
   const { id } = useParams();
 
   const app = apps.find((a) => String(a.id) == id);
   const { image, companyName,title, downloads, ratingAvg, reviews, size } = app || {};
   if(loading) return <p className="container mx-auto flex items-center justify-center my-50"><img className="w-8" src={logo} /> Loading..</p>
+
+
+  const handleAddToInstalledList = ()=>{
+    const existingList = JSON.parse(localStorage.getItem('installedList'))
+    let updatedList = []
+    if(existingList){
+      const isDuplicate = existingList.some(a=> a.id === app.id)
+      if(isDuplicate){
+        return alert('Already Added')
+      }
+      updatedList = [...existingList, app]
+    }else{
+      updatedList.push(app)
+    }
+    localStorage.setItem('installedList', JSON.stringify(updatedList))
+  }
+
+
   return (
-    <div className="max-w-4xl mx-auto bg-white mt-10 rounded-2xl shadow-md p-6 flex flex-col sm:flex-row items-center gap-6">
+    <div>
+      <div className="max-w-4xl mx-auto bg-white mt-10 rounded-2xl shadow-md p-6 flex flex-col sm:flex-row items-center gap-6">
       {/* Image */}
       <div className="flex-shrink-0">
         <img
@@ -64,10 +84,29 @@ const DetailsCard = () => {
         </div>
 
         {/* Install Button */}
-        <button className="mt-6 bg-[#00d390] hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg shadow-sm transition">
+        <button onClick={handleAddToInstalledList} className="mt-6 bg-[#00d390] hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg shadow-sm transition">
           Install Now ({size}MB)
         </button>
       </div>
+      
+    </div>
+    <div className="container mx-auto">
+      {/* Recharts */}
+      <div className="w-full h-64">
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart
+          data={apps}
+          layout="vertical"
+          margin={{ top: 20, right: 30, left: 50, bottom: 0 }}
+        >
+          <XAxis type="number" />
+          <YAxis dataKey='Ratings' type="category" />
+          <Tooltip />
+          <Bar dataKey="value" fill="#ff9800" barSize={20} />
+        </BarChart >
+      </ResponsiveContainer>
+    </div>
+    </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import useApps from '../Hook/useApps';
-import { GiH2O } from 'react-icons/gi';
 import SingleCard from '../Components/SingleCard';
+import { Link } from 'react-router';
 
 const AppsCards = () => {
     const {apps, loading, error} = useApps()
@@ -15,11 +15,14 @@ const AppsCards = () => {
                 <h2 className='text-5xl font-semibold mb-5'>Trending Apps</h2>
                 <p className='text-gray-400'>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className='grid grid-cols-4 gap-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
                 {
                     newApps.map(app=> <SingleCard key={app.id} app={app}></SingleCard>)
                 }
             </div>
+            <div className="navbar-end ">
+        <Link to='/apps' className="btn mt-10 text-white bg-gradient-to-b from-[#632ee3] to-[#9f62f2]"><span>Show All</span> </Link>
+      </div>
         </div>
     );
 };

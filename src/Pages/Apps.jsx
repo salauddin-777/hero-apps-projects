@@ -5,7 +5,7 @@ import AppsCards from "./AppsCards";
 import logo from "../assets/logo.png";
 
 const Apps = () => {
-  const { apps, loading, error } = useApps();
+  const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
   const searchedApps = term
@@ -56,7 +56,7 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {searchedApps.map((app) => (
           <SingleCard key={app.id} app={app}></SingleCard>
         ))}
