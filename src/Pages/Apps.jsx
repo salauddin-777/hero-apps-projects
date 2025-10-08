@@ -8,9 +8,14 @@ const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
+
+  
   const searchedApps = term
     ? apps.filter((a) => a.title.toLowerCase().includes(term))
     : apps;
+  // if(apps.filter(a=>a.title.toLowerCase() != term)){
+  //   <h2>Apps Not Found</h2>
+  // }
 
   if (loading)
     return (
