@@ -1,16 +1,29 @@
-# React + Vite
+1. App Name=> 
+#My Hero App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Description=>
+#About:-
+In My Hero App you can download many usefull apps that will make your work easy, this apps are light weight and easy to use!
 
-Currently, two official plugins are available:
+#Use:-
+In Home page you can see about our State and also Some Trending Apps are present there!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Apps Section:-
+In Apps section you can see our all apps with download details and apps ratings..
 
-## React Compiler
+#Apps Details:
+If you click a apps that you want to Install then it will appaire with a new page that will show you the exact details of the app.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#Install a apps:-
+If you want to install a apps then just press the "Install Now " button , it will pop-up a message with "Apps Installing, Thanks!"
+Note:- You can't install a app 2 times. it will pop-up a toastify warning message!
 
-## Expanding the ESLint configuration
+#Uninstall a apps:-
+If you want to uninstall a  app, simply go to the Installation page and Click on the "Uninstall" button of the app that you want to uninstall, Apps will remove with a toastify message.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Language or Technology uses:
+#React
+#JS
+#Tailwind
+#Css
+
