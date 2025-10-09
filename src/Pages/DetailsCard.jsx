@@ -89,7 +89,7 @@ const DetailsCard = () => {
             </a>
           </p>
 
-          {/* Stats Row */}
+          
           <div className="flex flex-wrap gap-8 mt-4 text-gray-700">
             <div className="grid grid-row-2 items-center gap-2">
               <img className="w-8 h-8" src={icon} />

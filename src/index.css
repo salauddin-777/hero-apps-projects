@@ -2,3 +2,8 @@
 @plugin "daisyui" {
   themes: light --prefersdark, dark , cupcake;
 }
+
+ div ul li a.active{
+  text-decoration: underline;
+  color:  blue;
+}

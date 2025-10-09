@@ -25,7 +25,7 @@ const InstallSingleCard = ({ app, handleUninstall }) => {
           <span>{size} MB</span>
         </div>
         <div className="card-actions justify-end ">
-          <button onClick={()=>handleUninstall(id)} className="btn rounded-lg text-white text-2xl bg-[#00d390] py-7 px-8">Uninstall</button>
+          <button onClick={()=>handleUninstall(id)} className="btn rounded-lg text-white md:text-2xl bg-[#00d390] md:py-7 md:px-8">Uninstall</button>
           
         </div>
         </div>

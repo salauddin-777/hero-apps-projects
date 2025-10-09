@@ -3,6 +3,7 @@ import useApps from "../Hook/useApps";
 import SingleCard from "../Components/SingleCard";
 import AppsCards from "./AppsCards";
 import logo from "../assets/logo.png";
+import NoAppFound from "./NoAppFound";
 
 const Apps = () => {
   const { apps, loading } = useApps();
@@ -62,6 +63,7 @@ const Apps = () => {
         </label>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        {searchedApps.length === 0? <NoAppFound></NoAppFound>: ''}
         {searchedApps.map((app) => (
           <SingleCard key={app.id} app={app}></SingleCard>
         ))}
