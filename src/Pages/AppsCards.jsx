@@ -4,10 +4,7 @@ import SingleCard from '../Components/SingleCard';
 import { Link } from 'react-router';
 
 const AppsCards = () => {
-    const {apps, loading, error} = useApps()
-    console.log(apps);
-    console.log(loading);
-    console.log(error);
+    const {apps} = useApps();
     const newApps = apps.slice(0,8);
     return (
         <div className='container mx-auto m-10'>

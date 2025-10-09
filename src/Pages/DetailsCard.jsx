@@ -16,7 +16,7 @@ import {
 import { Bounce, toast } from "react-toastify";
 
 const DetailsCard = () => {
-  const [click, setClick] = useState(true);
+  const [click, setClick] = useState(false);
   const { apps, loading } = useApps();
   const { id } = useParams();
 
@@ -65,6 +65,7 @@ const DetailsCard = () => {
       theme: "colored",
       transition: Bounce,
     });
+    
   };
 
   return (
@@ -119,9 +120,9 @@ const DetailsCard = () => {
           {/* Install Button */}
           <button
             onClick={handleAddToInstalledList}
-            className="mt-6 bg-[#00d390] hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg shadow-sm transition"
+            className={`mt-6 bg-[#00d390] hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg shadow-sm transition ${click === false? "disabled": ''} `}
           >
-            {click ? "Install Now" : "Installed"} ({size}MB)
+            {click ? "Installed" : "Install Now"} ({size}MB)
           </button>
         </div>
       </div>
@@ -143,7 +144,7 @@ const DetailsCard = () => {
           </ResponsiveContainer>
         </div>
       </div>
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto my-10">
         <h2 className="text-2xl font-bold mb-5">Description</h2>
         <p>{description}</p>
       </div>

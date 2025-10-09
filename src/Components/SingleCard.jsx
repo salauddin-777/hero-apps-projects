@@ -15,7 +15,7 @@ const SingleCard = ({ app }) => {
           <h2 className="card-title">{title}</h2>
           <div className="flex justify-between">
             <h2 className="bg-[#f1f5e8] rounded-sm p-1 flex items-center gap-2 text-green-500">
-              <img className="w-4 h-4" src={icon} alt="" />
+              <img className="w-4 h-4 " src={icon} alt="" />
               {downloads}M
             </h2>
             <h2 className="bg-[#fff0e1] rounded-sm p-1 flex items-center gap-2 text-orange-500">

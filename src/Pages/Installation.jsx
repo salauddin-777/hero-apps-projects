@@ -2,10 +2,14 @@ import React, { useEffect, useState } from "react";
 import InstallSingleCard from "../Components/InstallSingleCard";
 import { Bounce, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import useApps from "../Hook/useApps";
+import logo from "../assets/logo.png";
 
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
+  const { loading} = useApps()
+  console.log(loading);
   useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("installedList"));
     if (savedList) setInstallList(savedList);
@@ -38,6 +42,13 @@ const Installation = () => {
       transition: Bounce,
     });
   };
+
+   if (loading)
+      return (
+        <p className="container mx-auto flex items-center justify-center my-50">
+          <img className="w-8" src={logo} /> Loading......
+        </p>
+      );
 
   return (
     <div className="container mx-auto">
