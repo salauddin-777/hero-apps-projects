@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import InstallSingleCard from "../Components/InstallSingleCard";
-import { toast } from "react-toastify";
+import { Bounce, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Installation = () => {
@@ -26,7 +26,17 @@ const Installation = () => {
     let updatedList = existingList.filter((a) => a.id !== id);
     setInstallList(updatedList);
     localStorage.setItem("installedList", JSON.stringify(updatedList));
-    toast('Uninstall Succesfully')
+    toast.warn("Uninstalling App Completed!!", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Bounce,
+    });
   };
 
   return (

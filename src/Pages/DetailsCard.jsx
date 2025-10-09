@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../Hook/useApps";
 import icon from "../assets/icon-downloads.png";
-import ratings from "../assets/icon-ratings.png";
+import ratings2 from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
 import logo from "../assets/logo.png";
 import {
@@ -16,12 +16,12 @@ import {
 import { Bounce, toast } from "react-toastify";
 
 const DetailsCard = () => {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
   const { apps, loading } = useApps();
   const { id } = useParams();
 
   const app = apps.find((a) => String(a.id) == id);
-  const { image, companyName, title, downloads, ratingAvg, reviews, size } =
+  const { image, companyName, title, downloads, ratingAvg, reviews, size, description, ratings } =
     app || {};
   if (loading)
     return (
@@ -100,7 +100,7 @@ const DetailsCard = () => {
             </div>
 
             <div className="grid grid-row-2 items-center gap-2">
-              <img className="w-8 h-8" src={ratings} />
+              <img className="w-8 h-8" src={ratings2} />
               <div>
                 <p className="text-xs text-gray-500">Average Ratings</p>
                 <p className="font-bold text-xl">{ratingAvg}</p>
@@ -121,26 +121,31 @@ const DetailsCard = () => {
             onClick={handleAddToInstalledList}
             className="mt-6 bg-[#00d390] hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg shadow-sm transition"
           >
-            {click ? "Installed" : "Install Now"} ({size}MB)
+            {click ? "Install Now" : "Installed"} ({size}MB)
           </button>
         </div>
       </div>
       <div className="container mx-auto">
         {/* Recharts */}
         <div className="w-full h-64">
+          <h2 className="text-2xl font-bold">Ratings</h2>
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
-              data={apps}
+              data={ratings}
               layout="vertical"
               margin={{ top: 20, right: 30, left: 50, bottom: 0 }}
             >
-              <XAxis type="number" />
-              <YAxis dataKey="Ratings" type="category" />
+              <XAxis type="count" />
+              <YAxis dataKey="name" type="category" />
               <Tooltip />
-              <Bar dataKey="value" fill="#ff9800" barSize={20} />
+              <Bar dataKey="count" fill="#ff9800" barSize={20} />
             </BarChart>
           </ResponsiveContainer>
         </div>
+      </div>
+      <div className="container mx-auto mt-10">
+        <h2 className="text-2xl font-bold mb-5">Description</h2>
+        <p>{description}</p>
       </div>
     </div>
   );

@@ -4,17 +4,17 @@
     "title": "TaskMaster Pro",
     "companyName": "NextGen Apps",
     "id": 1,
-    "description": "An advanced productivity tool designed to help you manage daily tasks efficiently.",
+    "description": "An advanced productivity tool designed to help you manage daily tasks efficiently. ProTask Manager is an advanced productivity and collaboration tool created for individuals and teams who want to simplify complex workflows without sacrificing efficiency. It brings together project planning, communication, and analytics in one unified interface. Users can create unlimited task lists, assign responsibilities, and monitor progress with intuitive dashboards. Each task can include attachments, subtasks, and comments, allowing everyone to stay aligned throughout the project lifecycle. The platform integrates smoothly with Google Workspace, Microsoft 365, Slack, and Trello, ensuring information flows seamlessly across tools. Notifications and reminders keep users on schedule, while intelligent analytics offer insights into productivity trends and time management. A robust permission system ensures sensitive data is only visible to authorized members. ProTask Manager supports offline functionality and automatic data synchronization when reconnected. Its interface is minimal yet powerful, helping users focus on meaningful work rather than managing software. With ProTask Manager, staying organized and efficient becomes effortless—no matter how large or distributed your team is.",
     "size": 58,
     "reviews": 2456,
     "ratingAvg": 4.3,
     "downloads": 7,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 936 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 936 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
@@ -22,17 +22,17 @@
     "title": "FitTrack",
     "companyName": "HealthSync Ltd.",
     "id": 2,
-    "description": "Track workouts, calories, and progress with personalized fitness recommendations.",
+    "description": "Track workouts, calories, and progress with personalized fitness recommendations. PhotoFlow Studio redefines digital image editing by combining professional-grade features with user-friendly controls. Designed for both seasoned photographers and creative enthusiasts, it enables powerful edits without overwhelming complexity. The software includes a wide range of filters, blend modes, and layer management tools for precise customization. AI-powered auto-enhancement can instantly adjust exposure, contrast, and tone curves, while manual sliders allow fine-tuning for perfectionists. Batch processing speeds up repetitive tasks like watermarking or resizing hundreds of photos. The built-in catalog intelligently organizes your collection with tags, keywords, and automatic face recognition. Cross-platform support and cloud syncing mean your projects are accessible anywhere, anytime. The non-destructive editing workflow ensures you can always revert changes. Sharing to popular platforms such as Instagram, Behance, and Pinterest is frictionless. Whether polishing client portraits or designing creative composites, PhotoFlow Studio empowers you to produce professional-level visuals faster and with more creative freedom.",
     "size": 85,
     "reviews": 3100,
     "ratingAvg": 4.6,
     "downloads": 3,
     "ratings": [
-      { "name": "1 star", "count": 140 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 1380 },
       { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 1380 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 180 },
+      { "name": "1 star", "count": 140 }
     ]
   },
   {
@@ -46,11 +46,11 @@
     "ratingAvg": 4.1,
     "downloads": 9,
     "ratings": [
-      { "name": "1 star", "count": 420 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 800 },
+      { "name": "5 star", "count": 1600 },
       { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 1600 }
+      { "name": "3 star", "count": 800 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 420 }
     ]
   },
   {
@@ -58,17 +58,17 @@
     "title": "NoteEase",
     "companyName": "BrightApps",
     "id": 4,
-    "description": "Simple and elegant note-taking app that syncs across all your devices.",
+    "description": "Simple and elegant note-taking app that syncs across all your devices. CodeCraft IDE is an intelligent, high-performance development environment designed to streamline coding for individuals and teams. It supports JavaScript, Python, C++, Go, and many more languages with real-time syntax analysis, integrated debugging, and Git support. The editor features AI-assisted autocomplete, smart refactoring tools, and integrated testing frameworks to boost productivity. Its live collaboration mode allows developers to edit and review code together remotely, enabling seamless pair programming sessions. Offline functionality ensures no work is lost, while automatic backups keep projects secure. Customizable themes, font styles, and shortcut presets let each user personalize their workspace. Built-in performance profilers help identify bottlenecks, and Docker integration allows instant container deployment from within the IDE. CodeCraft also emphasizes data privacy through local encryption and secure authentication. Whether you’re building mobile apps, APIs, or enterprise systems, CodeCraft IDE delivers precision, performance, and reliability for every coding workflow imaginabl",
     "size": 37,
     "reviews": 1870,
     "ratingAvg": 4.8,
     "downloads": 2,
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 120 },
+     { "name": "5 star", "count": 1110 },
       { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 1110 }
+      { "name": "3 star", "count": 120 },
+      { "name": "2 star", "count": 90 },
+      { "name": "1 star", "count": 50 }
     ]
   },
   {
@@ -76,17 +76,17 @@
     "title": "SoundWave Player",
     "companyName": "EchoTune Inc.",
     "id": 5,
-    "description": "Stream high-quality music and create custom playlists seamlessly.",
+    "description": "Stream high-quality music and create custom playlists seamlessly. EduMaster Learn is an innovative e-learning ecosystem that connects teachers, students, and lifelong learners through interactive digital experiences. It hosts thousands of expertly curated courses across technology, design, business, and language subjects. Adaptive algorithms assess learner progress and tailor recommendations to individual goals. Educators can easily design multimedia-rich lessons featuring video, slides, and quizzes. Students can engage in real-time Q&A sessions, collaborate in discussion boards, and earn industry-recognized certificates. The mobile-friendly design supports offline access, so learning continues anywhere. Data-driven dashboards provide detailed analytics for instructors and administrators, helping measure performance and engagement. Secure cloud hosting, role-based permissions, and encrypted data transfers safeguard information. EduMaster’s gamified achievements encourage motivation, while the clean UI ensures distraction-free study. Whether preparing for exams or developing professional skills, EduMaster Learn delivers a personalized, immersive, and effective learning experience for the modern world.",
     "size": 98,
     "reviews": 8560,
     "ratingAvg": 4.5,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1000 },
+      { "name": "5 star", "count": 4060 },
       { "name": "4 star", "count": 2500 },
-      { "name": "5 star", "count": 4060 }
+      { "name": "3 star", "count": 1000 },
+      { "name": "2 star", "count": 600 },
+      { "name": "1 star", "count": 400 }
     ]
   },
   {
@@ -94,17 +94,17 @@
     "title": "Budget Buddy",
     "companyName": "FinSmart Co.",
     "id": 6,
-    "description": "Manage your personal finances with ease and get spending insights.",
+    "description": "Manage your personal finances with ease and get spending insights. MarketWave Analytics is a next-generation business intelligence platform engineered for companies that thrive on data-driven decision-making. It provides deep insights into customer behavior, sales performance, and market trends through powerful AI-powered analytics and predictive modeling. The platform supports seamless integration with CRM systems, spreadsheets, and databases, allowing users to consolidate scattered data sources into one unified dashboard. Advanced visualization tools enable teams to create real-time reports, track KPIs, and share findings across departments effortlessly. MarketWave also includes automated anomaly detection that flags irregularities in data before they become costly issues. A custom query builder allows non-technical users to generate complex reports without writing a single line of code. With enterprise-grade encryption and role-based permissions, security and data governance are built into the core. MarketWave’s responsive design ensures accessibility on any device, empowering managers and analysts alike to make smarter, faster, and more confident business decisions.",
     "size": 43,
     "reviews": 2320,
     "ratingAvg": 4.2,
     "downloads": 4,
     "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 460 },
+       { "name": "5 star", "count": 740 },
       { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 740 }
+      { "name": "3 star", "count": 460 },
+      { "name": "2 star", "count": 240 },
+      { "name": "1 star", "count": 180 }
     ]
   },
   {
@@ -112,17 +112,17 @@
     "title": "TravelMate",
     "companyName": "WanderTech",
     "id": 7,
-    "description": "Discover destinations, plan trips, and share experiences with other travelers.",
+    "description": "Discover destinations, plan trips, and share experiences with other travelers. SoundLab Studio is a powerful digital audio workstation that transforms your computer into a professional music production suite. Designed for musicians, producers, and sound engineers, it offers an intuitive workflow that balances creativity and technical precision. Users can record, mix, and master tracks using industry-standard tools like multitrack editing, MIDI support, and virtual instruments. The software includes a robust library of loops, samples, and effects to enhance every project. SoundLab’s advanced sound engine ensures minimal latency and pristine audio quality. Its modular interface allows complete customization—users can drag and arrange tools to match their preferred setup. Collaboration features let artists co-create remotely with real-time sync and cloud storage. Built-in mastering presets help polish mixes for streaming platforms or live performance. Whether producing podcasts or cinematic soundtracks, SoundLab Studio delivers studio-grade quality, high performance, and total creative freedom for all your audio projects.",
     "size": 72,
     "reviews": 3420,
     "ratingAvg": 4.7,
     "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
+     { "name": "5 star", "count": 1980 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1980 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 90 }
     ]
   },
   {
@@ -130,17 +130,17 @@
     "title": "LearnIt Online",
     "companyName": "EduSphere",
     "id": 8,
-    "description": "Interactive learning platform offering thousands of online courses.",
+    "description": "Interactive learning platform offering thousands of online courses. TeamSync Chat is a modern team communication and project coordination platform that helps organizations stay connected and productive. It offers instant messaging, video calls, task assignment, and file sharing in one unified interface. The clean and responsive UI ensures teams of all sizes can adapt quickly without a steep learning curve. With end-to-end encryption and secure cloud storage, TeamSync guarantees privacy and reliability. Channels and threads keep conversations organized by topic, while integration with tools like Google Drive, GitHub, and Notion helps centralize information. AI-powered smart search retrieves messages, links, or attachments in seconds. The built-in analytics dashboard provides insights into team engagement and activity levels, helping managers optimize workflow efficiency. Custom notifications, dark mode, and multilingual support enhance user experience. Designed for remote-first work culture, TeamSync Chat brings clarity, connection, and collaboration to distributed teams around the world.",
     "size": 125,
     "reviews": 11200,
     "ratingAvg": 4.6,
     "downloads": 1,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1000 },
+      { "name": "5 star", "count": 6000 },
       { "name": "4 star", "count": 3000 },
-      { "name": "5 star", "count": 6000 }
+      { "name": "3 star", "count": 1000 },
+      { "name": "2 star", "count": 700 },
+      { "name": "1 star", "count": 500 }
     ]
   },
   {
@@ -148,17 +148,17 @@
     "title": "QuickScan",
     "companyName": "DocuSoft",
     "id": 9,
-    "description": "Turn your phone into a portable scanner with OCR and PDF export features.",
+    "description": "Turn your phone into a portable scanner with OCR and PDF export features. StyleHub Fashion is a lifestyle and shopping platform built to redefine how users discover and purchase clothing online. The app combines AI recommendations with trend-driven fashion insights, helping shoppers find outfits tailored to their personal style and body type. It features a massive catalog from international and local brands, with real-time stock updates and curated seasonal collections. Users can try on outfits virtually using augmented reality, allowing them to visualize how clothes look before purchasing. A built-in community space encourages users to share looks, receive feedback, and follow influencers. Exclusive deals, loyalty rewards, and smart cart optimization enhance the shopping experience. Secure payment gateways and fast delivery options make online shopping seamless. With advanced machine learning, StyleHub continually learns user preferences to improve suggestions. Whether shopping for casualwear or luxury apparel, StyleHub Fashion transforms e-commerce into a personalized fashion journey.",
     "size": 49,
     "reviews": 5420,
     "ratingAvg": 4.4,
     "downloads": 6,
     "ratings": [
-      { "name": "1 star", "count": 260 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 800 },
+      { "name": "5 star", "count": 2460 },
       { "name": "4 star", "count": 1500 },
-      { "name": "5 star", "count": 2460 }
+      { "name": "3 star", "count": 800 },
+      { "name": "2 star", "count": 400 },
+      { "name": "1 star", "count": 260 }
     ]
   },
   {
@@ -166,17 +166,17 @@
     "title": "WeatherX",
     "companyName": "SkyTrack Labs",
     "id": 10,
-    "description": "Accurate weather forecasts, live radar, and climate tracking for your region.",
+    "description": "Accurate weather forecasts, live radar, and climate tracking for your region. MindEase Meditation is a mindfulness and stress-relief app designed to help users cultivate peace, focus, and emotional resilience through guided meditation and breathing practices. It offers hundreds of sessions tailored to various goals, including better sleep, anxiety reduction, and focus improvement. The app’s soothing audio design and high-quality narrations create a deeply immersive experience. Personalized daily routines adapt based on mood and activity levels, helping users form lasting habits. MindEase also features progress tracking, sleep soundscapes, and focus timers to complement mindfulness training. Community challenges encourage consistency and provide motivation. The minimalist design ensures effortless navigation, while offline mode allows sessions without internet access. Scientifically backed by wellness experts, MindEase promotes holistic health, improving both emotional balance and mental clarity. Whether you’re a beginner or seasoned meditator, MindEase offers a calm digital space for daily self-care and mental well-being.",
     "size": 56,
     "reviews": 3210,
     "ratingAvg": 4.3,
     "downloads": 3,
     "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 450 },
+      { "name": "5 star", "count": 1310 },
       { "name": "4 star", "count": 1100 },
-      { "name": "5 star", "count": 1310 }
+      { "name": "3 star", "count": 450 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 150 }
     ]
   },
   {
@@ -184,17 +184,17 @@
     "title": "MindEase",
     "companyName": "CalmTech",
     "id": 11,
-    "description": "Meditation and relaxation app to improve focus and reduce stress.",
+    "description": "Meditation and relaxation app to improve focus and reduce stress. TravelMate Explorer is your ultimate travel companion, designed to simplify trip planning, navigation, and exploration. The app helps users create personalized itineraries based on interests, budgets, and travel duration. It features real-time weather updates, currency conversion, and interactive offline maps. The built-in AI assistant suggests popular attractions, hidden gems, and local eateries, ensuring every trip feels unique and authentic. TravelMate supports booking flights, hotels, and experiences directly within the app, minimizing the hassle of switching platforms. Travelers can document their journeys with digital journals, share photos, and collaborate on group plans with friends. The integrated translation tool supports over 60 languages, breaking communication barriers effortlessly. Safety features such as emergency contacts, local alerts, and offline access make it reliable for solo travelers. With an intuitive interface and smart route optimization, TravelMate Explorer turns every journey into a stress-free adventure where discovery meets convenience.",
     "size": 61,
     "reviews": 4580,
     "ratingAvg": 4.9,
     "downloads": 9,
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 200 },
+      { "name": "5 star", "count": 3420 },
       { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 3420 }
+      { "name": "3 star", "count": 200 },
+      { "name": "2 star", "count": 100 },
+      { "name": "1 star", "count": 60 }
     ]
   },
   {
@@ -202,17 +202,17 @@
     "title": "GameBoost",
     "companyName": "NovaPlay",
     "id": 12,
-    "description": "Optimize your device performance for smoother gaming experiences.",
+    "description": "Optimize your device performance for smoother gaming experiences. HomeChef Recipes brings culinary creativity right to your kitchen with a massive library of curated recipes from around the globe. Whether you’re a beginner or seasoned cook, the app’s step-by-step guided instructions and video tutorials make cooking accessible and fun. Smart filters allow you to search by cuisine, diet type, cooking time, or ingredients available in your pantry. HomeChef also features AI meal planning that automatically generates weekly menus based on nutritional preferences and calorie goals. Users can create shopping lists, track expenses, and share their favorite recipes with friends. Each recipe includes nutritional breakdowns and substitution suggestions for healthy alternatives. The community section allows food lovers to rate, review, and discuss recipes, creating an engaging social cooking experience. With cloud syncing, offline access, and voice control integration, HomeChef Recipes turns your device into a personal sous-chef that inspires delicious meals every day.",
     "size": 77,
     "reviews": 6420,
     "ratingAvg": 4.2,
     "downloads": 4,
     "ratings": [
-      { "name": "1 star", "count": 520 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1000 },
+       { "name": "5 star", "count": 2600 },
       { "name": "4 star", "count": 1700 },
-      { "name": "5 star", "count": 2600 }
+      { "name": "3 star", "count": 1000 },
+      { "name": "2 star", "count": 600 },
+      { "name": "1 star", "count": 520 }
     ]
   },
   {
@@ -220,17 +220,17 @@
     "title": "ChefMate",
     "companyName": "TastyBytes",
     "id": 13,
-    "description": "Find and save recipes, plan meals, and create smart grocery lists.",
+    "description": "Find and save recipes, plan meals, and create smart grocery lists. CryptoVault Tracker is a secure and intelligent cryptocurrency portfolio management app built for traders and long-term investors alike. It allows users to track live prices, analyze market trends, and monitor performance across multiple exchanges. The app supports real-time updates for Bitcoin, Ethereum, and thousands of altcoins. With AI-powered insights, users receive alerts about market shifts, price breakouts, and portfolio risks. The intuitive dashboard visualizes profit/loss over time, helping investors make informed decisions. Security is the app’s top priority, featuring encrypted storage and optional two-factor authentication. CryptoVault also includes educational content for beginners, offering resources about blockchain, DeFi, and NFTs. The built-in tax calculator automatically summarizes capital gains for easier reporting. Whether you’re managing a diverse crypto portfolio or tracking your first digital asset, CryptoVault Tracker delivers transparency, control, and confidence in a rapidly evolving market.",
     "size": 68,
     "reviews": 5120,
     "ratingAvg": 4.7,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 3200 },
       { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 3200 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
@@ -238,17 +238,17 @@
     "title": "CryptoTrack",
     "companyName": "CoinBaseX",
     "id": 14,
-    "description": "Monitor live cryptocurrency prices, charts, and wallet balances.",
+    "description": "Monitor live cryptocurrency prices, charts, and wallet balances. NoteSync Pro is a sleek, cloud-powered note-taking app that brings together simplicity, performance, and security. Users can create text, image, and audio notes, all synced seamlessly across devices. Its minimalist interface promotes focus and organization, while tagging, color coding, and folder grouping make navigation intuitive. NoteSync Pro supports handwriting input, document scanning, and PDF annotation, turning it into an all-in-one digital notebook. Advanced search with OCR lets users instantly find text inside scanned documents or images. Collaboration tools enable sharing notes with colleagues or friends in real time. With end-to-end encryption, your ideas and sensitive data remain private. Offline mode and automatic cloud backups ensure you never lose content. The customizable workspace and dark mode adapt to personal preferences. Perfect for students, professionals, and creatives, NoteSync Pro transforms how you capture and organize ideas—efficiently, securely, and beautifully.",
     "size": 82,
     "reviews": 6210,
     "ratingAvg": 4.3,
     "downloads": 2,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 520 },
-      { "name": "3 star", "count": 800 },
+      { "name": "5 star", "count": 2890 },
       { "name": "4 star", "count": 1600 },
-      { "name": "5 star", "count": 2890 }
+      { "name": "3 star", "count": 800 },
+      { "name": "2 star", "count": 520 },
+      { "name": "1 star", "count": 400 }
     ]
   },
   {
@@ -256,17 +256,17 @@
     "title": "ShopMate",
     "companyName": "BuyNow Corp",
     "id": 15,
-    "description": "Smart shopping assistant with price comparison and wish-list tracking.",
+    "description": "Smart shopping assistant with price comparison and wish-list tracking. EcoTrack Green is an environmental awareness and sustainability app built to help users reduce their carbon footprint and adopt greener habits. It tracks daily energy consumption, water usage, and transportation emissions, providing personalized insights and actionable recommendations. Gamified challenges motivate users to make eco-friendly choices, like biking instead of driving or reducing plastic use. EcoTrack connects with smart devices to monitor household energy data and offers comparisons to community averages. Educational articles and sustainability tips keep users informed about global environmental issues. The app includes a reward system where users earn points for completing green activities, redeemable for discounts with eco-conscious brands. Offline support, multilingual access, and secure data handling make it globally inclusive. With EcoTrack Green, every small action contributes to a larger mission—empowering individuals to make sustainable living accessible, measurable, and impactful for the planet.",
     "size": 91,
     "reviews": 7810,
     "ratingAvg": 4.5,
     "downloads": 1,
     "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 900 },
+     { "name": "5 star", "count": 3990 },
       { "name": "4 star", "count": 2100 },
-      { "name": "5 star", "count": 3990 }
+      { "name": "3 star", "count": 900 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 320 }
     ]
   },
   {
@@ -274,17 +274,17 @@
     "title": "SleepCycle Pro",
     "companyName": "RestLabs",
     "id": 16,
-    "description": "Track your sleep patterns and wake up refreshed using smart alarms.",
+    "description": "Track your sleep patterns and wake up refreshed using smart alarms. MindEase Meditation is a mindfulness and relaxation app crafted to help users reduce stress, improve focus, and enhance emotional balance. It offers a variety of guided meditation sessions led by certified instructors, covering topics such as anxiety relief, better sleep, and gratitude. The app includes ambient soundscapes, breathing exercises, and customizable daily reminders to help users build consistent meditation habits. A mood tracker provides insights into emotional trends, while the AI-based recommendation engine curates sessions based on the user's mental state. Offline mode ensures access to your favorite practices anytime, anywhere. MindEase also features an interactive journal for self-reflection and mindfulness challenges to promote positivity. The app’s clean interface, soft color palette, and calm audio design create a soothing digital sanctuary. Whether you’re a beginner or an experienced meditator, MindEase Meditation provides tools for inner peace and a healthier, more centered life every day.",
     "size": 64,
     "reviews": 2980,
     "ratingAvg": 4.8,
     "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 200 },
+       { "name": "5 star", "count": 2060 },
       { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 2060 }
+      { "name": "3 star", "count": 200 },
+      { "name": "2 star", "count": 80 },
+      { "name": "1 star", "count": 40 }
     ]
   },
   {
@@ -292,17 +292,17 @@
     "title": "DriveSafe",
     "companyName": "RoadGuard",
     "id": 17,
-    "description": "Monitor driving habits and get tips for safer, fuel-efficient driving.",
+    "description": "Monitor driving habits and get tips for safer, fuel-efficient driving. FitTrack Coach is your all-in-one fitness and wellness companion, designed to help users achieve their health goals efficiently. The app includes personalized workout plans tailored to fitness levels, goals, and available equipment. It features high-definition video tutorials, live workout tracking, and real-time feedback using AI pose detection. Nutrition tracking allows users to log meals, monitor calories, and analyze macronutrient distribution. FitTrack integrates with wearable devices to sync data from steps, heart rate, and sleep cycles. The social leaderboard adds a competitive edge, while streaks and challenges keep motivation high. Users can set weekly targets and get insights from performance analytics. FitTrack also promotes mindfulness with guided stretching and relaxation exercises. Whether your goal is weight loss, muscle gain, or endurance improvement, FitTrack Coach adapts to your journey with expert guidance and actionable data to make every rep count.",
     "size": 74,
     "reviews": 3120,
     "ratingAvg": 4.4,
     "downloads": 9,
     "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 220 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 1250 },
       { "name": "4 star", "count": 1100 },
-      { "name": "5 star", "count": 1250 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 220 },
+      { "name": "1 star", "count": 150 }
     ]
   },
   {
@@ -310,17 +310,17 @@
     "title": "TimeBlock",
     "companyName": "FocusTools",
     "id": 18,
-    "description": "Pomodoro-style time management app for improved productivity.",
+    "description": "Pomodoro-style time management app for improved productivity. EduQuest Learn is a next-generation learning platform offering high-quality online courses, interactive lessons, and AI-driven study tools. It provides thousands of courses across various subjects—programming, design, business, science, and more—curated by top educators and institutions. Personalized recommendations adapt to each learner’s progress, ensuring an optimized learning path. The built-in note-taking and progress-tracking features help students stay organized. EduQuest includes real-time quizzes, peer discussions, and achievement badges to make learning engaging and measurable. Offline downloads allow studying without internet access. The platform supports adaptive testing and feedback, helping users identify weaknesses and improve faster. EduQuest Learn’s sleek design, intuitive navigation, and accessible interface make it suitable for students, professionals, and lifelong learners. Whether preparing for exams or exploring new skills, EduQuest transforms education into an inspiring, interactive experience that promotes curiosity and continuous growth.",
     "size": 39,
     "reviews": 2250,
     "ratingAvg": 4.6,
     "downloads": 7,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 250 },
+     { "name": "5 star", "count": 1050 },
       { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1050 }
+      { "name": "3 star", "count": 250 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
@@ -328,17 +328,17 @@
     "title": "StreamHub",
     "companyName": "MediaFlow",
     "id": 19,
-    "description": "Watch live shows and stream movies in HD quality across devices.",
+    "description": "Watch live shows and stream movies in HD quality across devices. BudgetWise Planner is a smart financial management tool that helps individuals track expenses, manage savings, and achieve financial stability. The app automatically categorizes transactions from linked accounts and visualizes spending through interactive charts. Users can create monthly budgets, set savings goals, and receive alerts when nearing limits. The AI insights feature suggests ways to cut unnecessary expenses and maximize savings. BudgetWise also supports bill reminders, recurring payments, and shared budgeting for families or roommates. With bank-level encryption and offline mode, privacy and accessibility are guaranteed. The app’s minimal design ensures ease of use, while its educational blog section teaches users about financial literacy, investments, and debt reduction. Whether you’re saving for a trip, managing household finances, or simply trying to be more mindful about spending, BudgetWise Planner offers the clarity and control needed for smarter money management.",
     "size": 118,
     "reviews": 10100,
     "ratingAvg": 4.1,
     "downloads": 6,
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 1600 },
+      { "name": "5 star", "count": 3900 },
       { "name": "4 star", "count": 3000 },
-      { "name": "5 star", "count": 3900 }
+      { "name": "3 star", "count": 1600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "1 star", "count": 700 }
     ]
   },
   {
@@ -346,17 +346,17 @@
     "title": "LangLearn",
     "companyName": "LinguaSoft",
     "id": 20,
-    "description": "Learn over 20 languages interactively with AI-based pronunciation help.",
+    "description": "Learn over 20 languages interactively with AI-based pronunciation help. PhotoCraft Studio is a powerful photo editing app designed for both beginners and professionals. It offers advanced tools for color correction, retouching, and creative effects in a sleek, user-friendly interface. With AI-powered filters, one-tap enhancements, and object removal, users can transform ordinary shots into stunning works of art. The app supports layers, blending modes, and HDR adjustments for precise control. Built-in templates make it easy to design collages, social media posts, and posters. Batch editing and preset management streamline workflow for content creators. Cloud syncing ensures access across devices, and offline mode supports editing anywhere. PhotoCraft also features tutorials and community challenges to inspire creativity. Whether capturing portraits, landscapes, or product photos, PhotoCraft Studio empowers users to bring imagination to life with professional-grade editing tools in the palm of their hand.",
     "size": 102,
     "reviews": 7890,
     "ratingAvg": 4.7,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 240 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 600 },
+      { "name": "5 star", "count": 4950 },
       { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 4950 }
+      { "name": "3 star", "count": 600 },
+      { "name": "2 star", "count": 300 },
+      { "name": "1 star", "count": 240 }
     ]
   }
 ]
